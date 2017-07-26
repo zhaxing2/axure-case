@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>A3-1搜索</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/a3-1__/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/a3-1__/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Group) -->
+      <div id="u1254" class="ax_default">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1255" class="ax_default shape1">
+          <div id="u1255_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1256" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1257" class="ax_default shape1">
+          <div id="u1257_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1258" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1259" class="ax_default shape1">
+          <div id="u1259_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1260" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1261" class="ax_default shape1">
+          <div id="u1261_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1262" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1263" class="ax_default shape1">
+          <div id="u1263_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1264" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1265" class="ax_default shape1">
+          <div id="u1265_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1266" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1267" class="ax_default shape1">
+          <div id="u1267_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1268" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1269" class="ax_default shape1">
+          <div id="u1269_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1270" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1271" class="ax_default shape1">
+          <div id="u1271_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u1272" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Drop) -->
+      <div id="u1273" class="ax_default">
+        <img id="u1273_img" class="img " src="images/a3首页/u912.png"/>
+        <!-- Unnamed () -->
+        <div id="u1274" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1275" class="ax_default label">
+        <div id="u1275_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1276" class="text" style="visibility: visible;">
+          <p><span>默认显示搜教师；点击三角可以切换搜索范围；点击搜索框显示键盘；点击取消返回上一个页面；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u1277" class="ax_default">
+        <img id="u1277_img" class="img " src="images/a3首页/u916.png"/>
+        <!-- Unnamed () -->
+        <div id="u1278" class="text" style="visibility: visible;">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1279" class="ax_default">
+        <div id="u1279_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1280" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u1281" class="ax_default">
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u1282" class="ax_default">
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u1283" class="ax_default">
+        <img id="u1283_img" class="img " src="images/a1登录/u562.png"/>
+        <!-- Unnamed () -->
+        <div id="u1284" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1285" class="ax_default _形状1">
+        <div id="u1285_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1286" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; &nbsp; 搜教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1287" class="ax_default _文本段落">
+        <div id="u1287_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1288" class="text" style="visibility: visible;">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u1289" class="ax_default image1">
+        <img id="u1289_img" class="img " src="images/a1登录/u524.png"/>
+        <!-- Unnamed () -->
+        <div id="u1290" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1291" class="ax_default box_1">
+        <div id="u1291_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1292" class="text" style="visibility: visible;">
+          <p><span>搜教师</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1293" class="ax_default box_1">
+        <div id="u1293_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1294" class="text" style="visibility: visible;">
+          <p><span>搜课程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1295" class="ax_default link_button">
+        <div id="u1295_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1296" class="text" style="visibility: visible;">
+          <p><span>搜索历史</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1297" class="ax_default link_button">
+        <div id="u1297_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1298" class="text" style="visibility: visible;">
+          <p><span>清空记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1299" class="ax_default box_2">
+        <div id="u1299_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1300" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 王新</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1301" class="ax_default box_2">
+        <div id="u1301_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1302" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 初中语文</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1303" class="ax_default box_2">
+        <div id="u1303_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1304" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 高中数学</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1305" class="ax_default box_2">
+        <div id="u1305_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1306" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 吉他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1307" class="ax_default link_button">
+        <div id="u1307_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1308" class="text" style="visibility: visible;">
+          <p><span>加载更多</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Drop) -->
+      <div id="u1309" class="ax_default">
+        <img id="u1309_img" class="img " src="images/a3首页/u912.png"/>
+        <!-- Unnamed () -->
+        <div id="u1310" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1311" class="ax_default label">
+        <div id="u1311_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1312" class="text" style="visibility: visible;">
+          <p><span>记录搜索历史，支持分页加载，支持清空记录；点击清空记录显示弹框确认；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u1313" class="ax_default">
+        <img id="u1313_img" class="img " src="images/a3首页/u916.png"/>
+        <!-- Unnamed () -->
+        <div id="u1314" class="text" style="visibility: visible;">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1315" class="ax_default box_2">
+        <div id="u1315_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1316" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 王新</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1317" class="ax_default box_2">
+        <div id="u1317_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1318" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 初中语文</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1319" class="ax_default box_2">
+        <div id="u1319_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1320" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 高中数学</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1321" class="ax_default box_2">
+        <div id="u1321_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1322" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 吉他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1323" class="ax_default box_2">
+        <div id="u1323_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1324" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 王新</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1325" class="ax_default box_2">
+        <div id="u1325_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1326" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 初中语文</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1327" class="ax_default box_2">
+        <div id="u1327_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1328" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 高中数学</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1329" class="ax_default box_2">
+        <div id="u1329_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1330" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp;&nbsp; 吉他</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (A_Dialog) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1332" class="ax_default shape1">
+        <div id="u1332_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1333" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1334" class="ax_default horizontal_line">
+        <img id="u1334_img" class="img " src="images/a3-1__/u1334.png"/>
+        <!-- Unnamed () -->
+        <div id="u1335" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1336" class="ax_default paragraph1">
+        <div id="u1336_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1337" class="text" style="visibility: visible;">
+          <p><span>取消</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Vertical Line) -->
+      <div id="u1338" class="ax_default vertical_line">
+        <img id="u1338_img" class="img " src="images/a3-1__/u1338.png"/>
+        <!-- Unnamed () -->
+        <div id="u1339" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1340" class="ax_default paragraph1">
+        <div id="u1340_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1341" class="text" style="visibility: visible;">
+          <p><span>确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1342" class="ax_default paragraph1">
+        <div id="u1342_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1343" class="text" style="visibility: visible;">
+          <p><span>清空记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1344" class="ax_default paragraph1">
+        <div id="u1344_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1345" class="text" style="visibility: visible;">
+          <p><span>搜索历史将会清除</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u1346" class="ax_default image">
+        <img id="u1346_img" class="img " src="images/a3-1__/u1346.png"/>
+        <!-- Unnamed () -->
+        <div id="u1347" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u1348" class="ax_default image">
+        <img id="u1348_img" class="img " src="images/a3-1__/u1348.png"/>
+        <!-- Unnamed () -->
+        <div id="u1349" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
