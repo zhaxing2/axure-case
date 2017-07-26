@@ -1,0 +1,79 @@
+/* start toppanel */
+#toppanel { background-color: #efefef; height: 56px; font-size: 12px; font-family: 'OpenSans-SemiBold'; color: white; top:0px; width:100%;}
+#toppanel #control-bar { height: 56px; position:relative; display:inline-block; text-align:left;}
+#toppanel .button { margin-top: 15px; margin-right:20px; float:left; position:relative; padding: 6px 17px 4px 17px; }
+#toppanel #rotateDevice { height:20px; font-family: 'OpenSans-SemiBold'; font-size: 12px; margin-left: 10px; margin-right: 20px; padding: 6px 0px 4px;}
+#toppanel .gesturecontrol { margin-right: 10px; margin-left:10px; margin-top: 15px; float:left; position:relative; padding-top:6px;}
+#toppanel .zoomcontrol { margin-top: 15px; float:left; position:relative; margin-left:10px; margin-right:10px;}
+#toppanel .titlecontrol { font-size:12px; float:left; margin-right:5px; color:#707070; font-family:'OpenSans-Regular'; }
+#toppanel #gestureTool { font-family:OpenSans-SemiBold; color:#707070; font-size:12px; position:relative; width: 100px; background-color:transparent; border: 0 none; padding-left:5px; -webkit-appearance:none; -moz-appearance:none; }
+#toppanel .styled-select {border:0 none; float:left; overflow:hidden; background-color:#EFEFEF; }
+#toppanel #zoomValue { font-family:OpenSans-SemiBold; color:#707070; font-size:12px; top:5px; position:absolute; width: 90px; background-color:transparent; border: 0 none; -webkit-appearance:none; -moz-appearance:none; }
+#toppanel #zoomValue[disabled] { border: none; top:6px; }
+#toppanel .controls { display:inline; }
+#toppanel { -moz-user-select: -moz-none; -webkit-user-select: none; -ms-user-select: none; user-select: none; text-align:center; }
+#toppanel .styled-select { width:150px; height:30px; position:relative; }
+#toppanel .zoomcontrol .styled-select { width:70px; height:30px; position:relative; }
+
+/* mainpanel */
+#jim-body{background-color: #efefef;}
+#jim-container{background-color: #ffffff;}
+#jim-body.controlled { /*top:62px;*/ top:56px; }
+.showComments #jim-body.controlled { top:107px; }
+#jim-body.controlled-nocom {top:62px;}
+.cursor { position: absolute; z-index:999; background-image: url("../../css/images/cursor2.png"); width:32px; height:32px; }
+body { display:none; overflow: hidden; }
+
+/* cursors */
+#jim-container.touch { cursor: url('./resources/_jim/css/images/touch.cur'), auto !important; }
+#jim-container.touch { cursor: url('../images/touch.cur') 16 16, auto !important; }
+#jim-container { cursor: none !important; }
+.menu { cursor: inherit; }
+.menunode { cursor: inherit; }
+.menunode span { cursor: inherit; }
+.text input, .password input, .date input, .time input, .datetime input, .file input, textarea { cursor: inherit; }
+.date .icon, .time .icon, .datetime .icon { cursor: inherit; }
+.file .file-input { cursor: inherit; }
+.nativedropdown .dropdown-options, .dropdown .dropdown-options { cursor: inherit; }
+.index span { cursor: inherit; }
+.selected { cursor: inherit; }
+
+/* components */
+.ui-page, .selectionlist, .multiselectionlist, .panel, .dynamicpanel, .cellcontainer, .datarow, .headerrow, .gridcell { -webkit-overflow-scrolling: touch; overflow: auto; }
+
+/*** other ***/
+* { -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; }
+input[readonly], textarea[readonly] { -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; }
+input, textarea { -moz-user-select: text; -webkit-user-select: text; -ms-user-select: text; user-select: text; }
+input::-ms-clear, input::-ms-reveal { display: none; }
+
+.gesturecontrol span.customSelect {
+/* Styles For Your Select Box */
+background-color: #f5f0de;
+width: 80px; 
+font-size: 12px; 
+color: #707070; 
+font-family:OpenSans-SemiBold;
+height:17px;
+white-space:nowrap;
+}
+
+/**Retina images**/
+#toppanel .styled-select { 
+    background:url("../../../../resources/_jim/images/sidepanel/arrow.png") no-repeat right;
+}
+.gesturecontrol span.customSelect {
+    background:url("../../../../resources/_jim/images/sidepanel/arrow.png") no-repeat center right;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) 
+{ 
+	#toppanel .styled-select { background:url("../../../../resources/_jim/images/sidepanel/arrow@2x.png") no-repeat right; background-size:20px 16px;}
+	.gesturecontrol span.customSelect {background:url("../../../../resources/_jim/images/sidepanel/arrow@2x.png") no-repeat center right; background-size:20px 16px;}
+}

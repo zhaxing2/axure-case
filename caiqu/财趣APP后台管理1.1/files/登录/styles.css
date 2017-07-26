@@ -1,0 +1,211 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:relative;
+  left:-220px;
+  width:554px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:554px;
+  height:209px;
+}
+#u0 {
+  position:absolute;
+  left:220px;
+  top:60px;
+  width:554px;
+  height:209px;
+}
+#u1 {
+  position:absolute;
+  left:2px;
+  top:97px;
+  width:550px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u2_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:182px;
+  height:36px;
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(188, 188, 188, 1);
+  border-radius:3px;
+}
+#u2 {
+  position:absolute;
+  left:420px;
+  top:313px;
+  width:182px;
+  height:36px;
+}
+#u3 {
+  position:absolute;
+  left:2px;
+  top:10px;
+  width:178px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u4 {
+  position:absolute;
+  left:422px;
+  top:314px;
+  width:178px;
+  height:34px;
+}
+#u4_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:34px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+  border-color:transparent;
+  outline-style:none;
+}
+#u4_input {
+  color:#000000;
+}
+#u4_image_sketch {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:184px;
+  height:40px;
+}
+#u5_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:182px;
+  height:36px;
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(188, 188, 188, 1);
+  border-radius:3px;
+}
+#u5 {
+  position:absolute;
+  left:420px;
+  top:373px;
+  width:182px;
+  height:36px;
+}
+#u6 {
+  position:absolute;
+  left:2px;
+  top:10px;
+  width:178px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u7 {
+  position:absolute;
+  left:422px;
+  top:374px;
+  width:178px;
+  height:34px;
+}
+#u7_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:178px;
+  height:34px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+  border-color:transparent;
+  outline-style:none;
+}
+#u7_input {
+  color:#000000;
+}
+#u7_image_sketch {
+  position:absolute;
+  left:-3px;
+  top:-3px;
+  width:184px;
+  height:40px;
+}
+#u8_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:96px;
+  height:36px;
+  background:inherit;
+  background-color:rgba(204, 204, 204, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(201, 201, 201, 1);
+  border-radius:5px;
+  font-size:14px;
+  color:#666666;
+}
+#u8 {
+  position:absolute;
+  left:504px;
+  top:432px;
+  width:96px;
+  height:36px;
+  font-size:14px;
+  color:#666666;
+}
+#u9 {
+  position:absolute;
+  left:2px;
+  top:10px;
+  width:92px;
+  word-wrap:break-word;
+}
+#u10 {
+  position:absolute;
+  left:422px;
+  top:442px;
+  width:96px;
+  height:16px;
+}
+#u11 {
+  position:absolute;
+  left:16px;
+  top:0px;
+  width:78px;
+  word-wrap:break-word;
+}
+#u10_input {
+  position:absolute;
+  left:-3px;
+  top:-2px;
+}

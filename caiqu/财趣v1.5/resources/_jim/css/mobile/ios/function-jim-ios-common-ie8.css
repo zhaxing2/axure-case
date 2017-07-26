@@ -1,0 +1,12 @@
+/*** input components ***/
+.radiobutton { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/radiobutton.png', sizingMethod='scale'); }
+.checkbox { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/checkbox.png', sizingMethod='scale'); }
+.radiobutton[disabled="disabled"] { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/radiobutton-disabled.png', sizingMethod='scale'); }
+.checkbox[disabled="disabled"] { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/checkbox-disabled.png', sizingMethod='scale'); }
+.radiobutton[checked="checked"] { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/radiobuttonPressed.png', sizingMethod='scale'); }
+.checkbox[checked="checked"] { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/checkboxPressed.png', sizingMethod='scale'); }
+.radiobutton[checked="checked"][disabled="disabled"] { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/radiobuttonPressed-disabled.png', sizingMethod='scale'); }
+.checkbox[checked="checked"][disabled="disabled"] { background-image:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./resources/_jim/images/mobile/ios/common/checkboxPressed-disabled.png', sizingMethod='scale'); }
+
+/*** native dropdowns ***/
+.nativedropdown .dropdown-options { filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=0); }
