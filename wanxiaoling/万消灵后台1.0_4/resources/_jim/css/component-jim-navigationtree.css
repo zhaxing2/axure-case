@@ -1,0 +1,56 @@
+#navigationtree ins,
+#navigationtree .menu_dotred
+{
+    background: url("./images/jimsprite.png");
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) 
+{
+	#navigationtree ins,
+	#navigationtree .menu_dotred
+	{
+	    background: url("./images/jimsprite@2x.png");
+	    background-size:256px 512px;
+	}
+}
+
+#navigationtree { list-style-type: none; height: 100%; font-family: 'OpenSans-Regular'; }
+#navigationtree li { background-position: -70px 0; background-repeat: repeat-y; line-height: 25px; min-height: 20px; white-space: nowrap; margin-left: 18px; }
+#navigationtree > li { margin-left: 0; }
+#navigationtree ins { display: inline-block; text-decoration: none; margin-right:5px; vertical-align:middle;}
+#navigationtree  ul { list-style-type: none; }
+#navigationtree li.first { padding-top: 2px; }
+#navigationtree > li:first-child  > div.top-border { display:none; }
+#navigationtree li.clicked { background: navy; border: 1px solid navy; padding: 0 2px 0 1px; color: white; }
+#navigationtree li.closed > ul { display: none; }
+#navigationtree a.current { font-weight:bold; }
+#navigationtree a { color: #FFFFFF; white-space: nowrap; font-size:12px;}
+#navigationtree .folder  > a { color: #21C0C0; white-space: nowrap; font-size:12px;}
+
+/* start splice images */
+#navigationtree li.leaf > ins {background:none !important; margin-right:14px;}
+#navigationtree li.open > ins, #navigationtree li.closed > ins { cursor: pointer; margin-right:11px;}
+#navigationtree li.open > ins { background-position:-37px -34px;width:10px;height:6px; }
+#navigationtree li.closed > ins { background-position:-47px -34px;width:6px;height:10px;}
+#navigationtree ins.folder { background-position:-81px -34px;width:12px;height:11px; }
+#navigationtree li.open > a > ins.folder { background-position:-93px -34px;width:15px;height:10px; }
+
+#navigationtree .top-border{
+    background-color: #3F3F3F;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+#navigationtree .menu_dotred{
+background-position:-61px -34px;width:8px;height:8px;
+margin-left: 7px;
+display:none;
+}

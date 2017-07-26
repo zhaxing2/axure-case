@@ -1,0 +1,93 @@
+#jim-body {
+  position: absolute;
+  overflow: auto;
+}
+#jim-mobile {
+  position: relative;
+  top: 30px;
+  width: 450px;
+  margin: 0 auto;
+}
+#jim-mobile.landscape {
+  width: 730px;
+  height: 450px;
+}
+#jim-case {
+  width: 450px;
+  height: 730px;
+}
+#jim-container.portrait {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  width: 360px;
+  height: 640px;
+}
+#jim-container.landscape {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  width: 640px;
+  height: 360px;
+}
+#simulation {
+  position: relative;
+  height: 100%;
+}
+#jim-case #jim-case-top-left {
+  background-image: url('../_jim/images/mobile/custom/a16b718c-9afe-46fa-8ea6-699167bbc26a.png');
+  background-repeat: no-repeat;
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+#jim-case #jim-case-top-center {
+  background: url('../_jim/images/mobile/custom/e291ad70-d0ea-4773-a255-47e6f537d3d3.png') repeat-x scroll 0 0 transparent;
+  float: left;
+  width: 360px;
+  height: 45px;
+}
+#jim-case #jim-case-top-right {
+  background-image: url('../_jim/images/mobile/custom/42c185c8-f8d8-4ce2-936c-762dbdcb8052.png');
+  background-repeat: no-repeat;
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+#jim-case #jim-case-center-left {
+  background: url('../_jim/images/mobile/custom/63dc1f68-bc4e-498d-bc50-22d6fb5bb772.png') repeat-y scroll 0 0 transparent;
+  float: left;
+  width: 45px;
+  height: 640px;
+}
+#jim-case #jim-case-center-center {
+  float: left;
+  width: 360px;
+  height: 640px;
+}
+#jim-case #jim-case-center-right {
+  background: url('../_jim/images/mobile/custom/35a0eb74-86d6-4408-80c7-a6628eb31594.png') repeat-y scroll 0 0 transparent;
+  float: left;
+  width: 45px;
+  height: 640px;
+}
+#jim-case #jim-case-bottom-left {
+  background-image: url('../_jim/images/mobile/custom/fb546e63-9cb8-4fe9-9457-28e47d814d18.png');
+  background-repeat: no-repeat;
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+#jim-case #jim-case-bottom-center {
+  background: url('../_jim/images/mobile/custom/ea7011d3-36a0-4e8d-ad04-ef92def8411c.png') repeat-x scroll 0 0 transparent;
+  float: left;
+  width: 360px;
+  height: 45px;
+}
+#jim-case #jim-case-bottom-right {
+  background-image: url('../_jim/images/mobile/custom/305a1cf9-083b-4f91-a5f0-fcda34ce88d4.png');
+  background-repeat: no-repeat;
+  float: left;
+  width: 45px;
+  height: 45px;
+}
