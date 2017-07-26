@@ -1,0 +1,501 @@
+﻿.ax_shape {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_image {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_heading_1 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_heading_2 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:24px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_heading_3 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:18px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_heading_4 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_heading_5 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_heading_6 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:10px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_paragraph {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_text_link {
+  color:#0000FF;
+}
+.ax_text_link_mouse_over {
+}
+.ax_text_link_mouse_down {
+}
+.ax_text_field {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_text_area {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_droplist {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_list_box {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:left;
+  line-height:normal;
+}
+.ax_checkbox {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_radio_button {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_flow_shape {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_tree_node {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_html_button {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_snapshot {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_hot_spot {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_inline_frame {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_dynamic_panel {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_group {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_master {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_repeater {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_table {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_table_cell {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:left;
+  line-height:normal;
+}
+.ax_menu {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+  text-align:center;
+  line-height:normal;
+}
+.ax_horizontal_line {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_vertical_line {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_connector {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.ax_default {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.button_active {
+  font-family:'Arial Normal', 'Arial';
+  font-size:12px;
+  color:#0000FF;
+  text-align:center;
+  line-height:normal;
+}
+.link_bold_active {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:bold;
+  font-size:12px;
+  color:#0000FF;
+  text-align:left;
+  line-height:normal;
+}
+.link_inactive {
+  font-family:'Arial Normal', 'Arial';
+  font-size:12px;
+  color:#000099;
+  text-align:left;
+  line-height:normal;
+}
+.tab-selected_inactive {
+  font-family:'Arial Normal', 'Arial';
+  font-size:12px;
+  color:#000099;
+  text-align:center;
+  line-height:normal;
+}
+._文本段落 {
+  text-align:left;
+}
+._一级标题 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-size:32px;
+  text-align:left;
+}
+._二级标题 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-size:24px;
+  text-align:left;
+}
+._三级标题 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-size:18px;
+  text-align:left;
+}
+._四级标题 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-size:14px;
+  text-align:left;
+}
+._五级标题 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  text-align:left;
+}
+._六级标题 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-size:10px;
+  text-align:left;
+}
+._形状 {
+}
+.box_1 {
+}
+.box_2 {
+}
+.box_3 {
+}
+.box_4 {
+  color:#FFFFFF;
+}
+._图片 {
+  color:#000000;
+}
+.heading_2 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-size:24px;
+  text-align:left;
+}
+.placeholder {
+}
+.default_button {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.link_button {
+  color:#169BD5;
+}
+.heading_3 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:bold;
+  font-size:18px;
+  text-align:left;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.paragraph {
+  text-align:left;
+}
+.line {
+}
+.arrow {
+}
+._文本框 {
+  color:#000000;
+  text-align:left;
+}
+._多行文本框 {
+  color:#000000;
+  text-align:left;
+}
+._下拉列表框 {
+  color:#000000;
+  text-align:left;
+}
+._复选框 {
+  text-align:left;
+}
+.radio_button {
+  text-align:left;
+}
+._提交按钮 {
+  color:#000000;
+}
+._表格 {
+}
+.snapshot {
+}
+.sticky_1 {
+  text-align:left;
+}
+.sticky_3 {
+  text-align:left;
+}
+.marker {
+  color:#FFFFFF;
+}
+._单元格 {
+  text-align:left;
+}
+._水平线 {
+}
+._垂直线 {
+}
+.connector {
+}
+._流程形状 {
+}
+._图片1 {
+  color:#000000;
+}
+._文本段落1 {
+  text-align:left;
+}
+._图片2 {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:normal;
+  font-style:normal;
+  font-size:13px;
+  color:#000000;
+}
+._图片3 {
+  color:#000000;
+}
+._形状1 {
+}
+._图片4 {
+  color:#000000;
+}
+._文本段落2 {
+  text-align:left;
+}
+._水平线1 {
+}
+._形状2 {
+}
+._图片5 {
+  color:#000000;
+}
+._文本段落3 {
+  text-align:left;
+}
+._水平线2 {
+}
+._图片6 {
+  color:#000000;
+}
+.fontawesome {
+}
+.paragraph1 {
+  text-align:left;
+}
+._图片7 {
+  color:#000000;
+}

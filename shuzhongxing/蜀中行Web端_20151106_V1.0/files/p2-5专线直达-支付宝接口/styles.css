@@ -1,0 +1,32 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:relative;
+  left:-40px;
+  width:1220px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u2097 {
+  position:absolute;
+  left:40px;
+  top:50px;
+  width:1220px;
+  height:768px;
+}
+#u2097_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1220px;
+  height:768px;
+}
