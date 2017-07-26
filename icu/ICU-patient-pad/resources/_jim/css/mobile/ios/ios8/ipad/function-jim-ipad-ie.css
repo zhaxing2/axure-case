@@ -1,0 +1,5 @@
+/* start iPad css values*/
+#jim-case { background-image: none; }
+#jim-case.portrait { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios8/ipad/ipad.png'); }
+#jim-case.landscape { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios8/ipad/ipad.png'); }
+#jim-container.landscape { top: 83px; left: 165px; }

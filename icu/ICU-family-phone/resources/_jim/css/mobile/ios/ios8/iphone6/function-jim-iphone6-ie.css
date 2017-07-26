@@ -1,0 +1,13 @@
+/* start iPhone 5 css values*/
+#jim-case { background-image: none; }
+#jim-case.portrait { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios8/iphone6/iphone6.png'); }
+#jim-case.landscape { filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1) progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='./resources/_jim/images/mobile/ios/ios8/iphone6/iphone6.png'); }
+#jim-container.landscape { top: 80px; left: 135px; }
+
+/* keyboard values */
+.portrait #jim-iphone-kb .keyBubble { font-family:'iOS-Regular'; }
+.landscape #jim-iphone-kb .keyBubble { font-family:'iOS-Regular'; }
+.portrait #jim-iphone-kb #letters li.backspace { width:44px; }
+
+.landscape #jim-iphone-kb .backspace.pressed { background-position-y: 0px; }
+.landscape #jim-iphone-kb #letters li.shift { height:33px; }
