@@ -1,0 +1,37 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:relative;
+  left:-460px;
+  width:127px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u2653_div {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:127px;
+  height:16px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+}
+#u2653 {
+  position:absolute;
+  left:460px;
+  top:220px;
+  width:127px;
+  height:16px;
+}
+#u2654 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:127px;
+  white-space:nowrap;
+}
