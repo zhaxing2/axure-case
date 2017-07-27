@@ -1,0 +1,127 @@
+﻿$axure.loadCurrentPage({
+  "url":"流程图＆结构图.html",
+  "generationDate":new Date(1438572679747.28),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable",
+"temp"],
+  "page":{
+    "packageId":"d94ebde5f30f43e1998afcece43cfdda",
+    "type":"Axure:Page",
+    "name":"流程图＆结构图",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"应用字体",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"1768f408bc704229a6df76b3bb3090b9",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "fontName":"'Arial Negreta', 'Arial'",
+            "fontSize":"16px",
+            "fontWeight":"700",
+            "horizontalAlignment":"left",
+            "baseStyle":"627587b6038d43cca051c114ac41ad32",
+            "fill":{
+              "fillType":"solid",
+              "color":0xFFE9F2FC},
+            "size":{
+              "width":1280,
+              "height":40},
+            "borderWidth":"-1",
+            "borderFill":{
+              "fillType":"solid",
+              "color":0xFF96AAD8}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c787378a6de24d9c95a2a2d6f7ec5db5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "fontName":"'Arial Negreta', 'Arial'",
+                "fontSize":"16px",
+                "fontWeight":"700",
+                "horizontalAlignment":"left",
+                "baseStyle":"627587b6038d43cca051c114ac41ad32",
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFE9F2FC},
+                "size":{
+                  "width":1280,
+                  "height":40},
+                "borderWidth":"-1",
+                "borderFill":{
+                  "fillType":"solid",
+                  "color":0xFF96AAD8}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/流程图＆结构图/u0.png"}},
+{
+          "id":"1142deaa1bb0423e9ef20f9975e352f1",
+          "label":"",
+          "type":"imageBox",
+          "styleType":"imageBox",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":0,
+              "y":40},
+            "size":{
+              "width":604,
+              "height":474}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"a3007977450546e4935a39623782314c",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":0,
+                  "y":40},
+                "size":{
+                  "width":604,
+                  "height":474}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"images/流程图＆结构图/u2.png"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "1768f408bc704229a6df76b3bb3090b9":{
+      "scriptId":"u0"},
+    "c787378a6de24d9c95a2a2d6f7ec5db5":{
+      "scriptId":"u1"},
+    "1142deaa1bb0423e9ef20f9975e352f1":{
+      "scriptId":"u2"},
+    "a3007977450546e4935a39623782314c":{
+      "scriptId":"u3"}}});
